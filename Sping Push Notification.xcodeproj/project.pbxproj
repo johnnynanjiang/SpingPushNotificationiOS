@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					09EAA58E1C5AECF300CF3E21 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = AZQ5XWD6SH;
 					};
 					09EAA5A21C5AECF300CF3E21 = {
 						CreatedOnToolsVersion = 7.2;
@@ -399,9 +400,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Sping Push Notification/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "au.com.sping.ios.Sping-Push-Notification";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.sping.ios.pushnotification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -410,9 +413,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Sping Push Notification/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "au.com.sping.ios.Sping-Push-Notification";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.sping.ios.pushnotification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -484,6 +489,7 @@
 				09EAA5B91C5AECF300CF3E21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09EAA5BA1C5AECF300CF3E21 /* Build configuration list for PBXNativeTarget "Sping Push NotificationTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +498,7 @@
 				09EAA5BC1C5AECF300CF3E21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09EAA5BD1C5AECF300CF3E21 /* Build configuration list for PBXNativeTarget "Sping Push NotificationUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +507,7 @@
 				09EAA5BF1C5AECF300CF3E21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

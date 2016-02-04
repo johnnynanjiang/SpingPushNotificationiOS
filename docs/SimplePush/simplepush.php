@@ -1,13 +1,13 @@
 <?php
 
 // Put your device token here (without spaces):
-$deviceToken = '0f744707bebcf74f9b7c25d48e3358945f6aa01da5ddb387462c7eaf61bbad78';
+$deviceToken = '13f1962119345a2f6a4f590e3bd8140a90790495ea4e8294b6064087edd66e7b';
 
 // Put your private key's passphrase here:
-$passphrase = 'pushchat';
+$passphrase = 'password';
 
 // Put your alert message here:
-$message = 'My first push notification!';
+$message = 'This is a test push notification!';
 
 ////////////////////////////////////////////////////////////////////////////////
 
@@ -28,7 +28,8 @@ echo 'Connected to APNS' . PHP_EOL;
 // Create the payload body
 $body['aps'] = array(
 	'alert' => $message,
-	'sound' => 'default'
+	'sound' => 'default',
+	'badge' => 1
 	);
 
 // Encode the payload as JSON
